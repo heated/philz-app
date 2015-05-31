@@ -43,8 +43,18 @@ body {
 }
 
 .answer {
+  font-size: 140%;
+  display: inline-block;
+  width: 48%;
+  margin: 5px 0px;
+}
+
+.answer-user-text {
   color: orange;
   border-bottom: 2px solid white;
+  min-width: 130px;
+  display: inline-block;
+  margin: 0px 7px;
 }
 
 .underlined-question-space {

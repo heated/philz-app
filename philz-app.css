@@ -65,6 +65,7 @@ input[type="text"]
   font-size: 140%;
   display: inline-block;
   width: 48%;
+  max-width: 48%;
   margin: 6px 0px;
 }
 

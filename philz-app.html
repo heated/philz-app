@@ -1,21 +1,23 @@
 <!-- simple-todos.html -->
 <head>
   <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
+
   
   <title>Philz Coffee</title>
 </head>
 
-<body background="https://farm3.staticflickr.com/2626/4030152899_e6d66478df_b.jpg">
+  <body background="https://farm3.staticflickr.com/2626/4030152899_e6d66478df_b.jpg">
     <header>
       <img class="logo" src="https://www.google.com/work/apps/business/img/customers/philz-coffee/logo_2x.png" alt="Mountain View">
 
       <span class="time"></span>
       <span class="time2">time two</span>
       <span class="region">Palo Alto</span>
-      <span class="question"><b>If <span class="underlined-question-space"></span> right now, I'd laugh. xD</b></span>
+      <form class="new-answer">
+    <span class="question"><b>If <span class="underlined-question-space"><input type="text" name="text" placeholder="end the world!" /></span> right now, I'd laugh. xD</b></span>
+ </form>
 
       <!-- add a form below the h1 -->
-     
     </header>
 
     <ul>
@@ -24,12 +26,14 @@
       {{/each}}
     </ul>
 </body>
-
 <template name="answer">
   <div class="answer">Oh my god! <span class="answer-user-text">{{text}}</span>! :D</div>
 </template>
 
+
 <template name="one">
-  <div class="answer">Oh my god! <span class="answer-user-text">{{text}}</span>! :D</div>
+  <body>
+  
+</body>
 </template>
 

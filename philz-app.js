@@ -29,14 +29,24 @@ if (Meteor.isClient) {
     }
   });
 
-  var dt = new Date();
-  var time = dt.toTimeString();
-  // PLEASE ADD TIME!!!!! BITCHASS!!!
+  // add time on jquery load
+  var refreshTime = function () {
+    var dateTime = new Date();
 
+    var seconds = dateTime.toLocaleTimeString();
+    var match = seconds.match(/(\d+:\d+):\d+( \w+)/);
+    var withoutSeconds = match[1] + match[2];
+
+    $('.time').text(withoutSeconds);
+    $('.time2').text(dateTime.toDateString());
+  };
+
+  // on page load
+  $(refreshTime);
+  // and every second
+  setInterval(refreshTime, 10000);
 }
 
 if (Meteor.isServer) {
   Meteor.startup(function () {});
 }
-
-

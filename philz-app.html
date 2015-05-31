@@ -7,15 +7,17 @@
 
 <body background="https://farm3.staticflickr.com/2626/4030152899_e6d66478df_b.jpg">
     <header>
-      <img src="https://www.google.com/work/apps/business/img/customers/philz-coffee/logo_2x.png" alt="Mountain View" style="width:304px;height:228px;">
+      <img class="logo" src="https://www.google.com/work/apps/business/img/customers/philz-coffee/logo_2x.png" alt="Mountain View">
 
-      <h1 id="time"></h1>
-      <h2>Before I die I want to ...</h2>
+      <span class="time"></span>
+      <span class="time2">time two</span>
+      <span class="region">Palo Alto</span>
+      <span class="question"><b>If <span class="underlined-question-space"></span> happened right now, I'd laugh. xD ☺☻✌☹♡♥❤⚘❀❃❁✼☀✌♫</b></span>
 
   	  <!-- add a form below the h1 -->
-  	  <form class="new-answer">
+  	  <!-- <form class="new-answer">
   	    <input type="text" name="text" placeholder="end the world!" />
-  	  </form>
+  	  </form> -->
     </header>
 
     <ul>
@@ -26,5 +28,5 @@
 </body>
 
 <template name="answer">
-  <li>{{text}}</li>
+  <li>Heyooo, <span class="answer">{{text}}</span>? :)</li>
 </template>

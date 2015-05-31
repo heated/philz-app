@@ -5,23 +5,63 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: "Cabin Sketch";
+  color: white;
 }
 
+.logo {
+  width: 20%;
+  margin-left: 25px;
+}
 
+.time {
+  position: fixed;
+  left: 38%;
+  top: 5%;
+  font-size: 320%;
+}
 
+.time2 {
+  position: fixed;
+  color: gray;
+  left: 38%;
+  top: 13%;
+  font-size: 230%;
+}
 
-#login-buttons {
+.region {
+  position: fixed;
+  top: 7%;
+  right: 4%;
+  font-size: 400%;
+}
+
+.question {
+  font-size: 250%;
+  margin: 30px;
   display: block;
 }
 
-form {
+.answer {
+  color: orange;
+  border-bottom: 2px solid white;
+}
+
+.underlined-question-space {
+  width: 150px;
+  border-bottom: 4px solid white;
+  display: inline-block;
+  margin: -4px 5px;
+}
+
+/*form {
   margin-top: 10px;
   margin-bottom: -10px;
   background: transparent;
   position: relative;
-}
+}*/
 
-.new-task input {
+/*.new-task input {
   box-sizing: border-box;
   padding: 10px 0;
   background: transparent;
@@ -54,10 +94,9 @@ li {
   position: relative;
   list-style: none;
   padding: 15px;
-  border-bottom: #eee solid 1px;
-}
+}*/
 
-li .text {
+/*li .text {
   margin-left: 10px;
 }
 
@@ -72,14 +111,14 @@ li.checked .text {
 li.private {
   background: #eee;
   border-color: #ddd;
-}
+}*/
 
 
-.toggle-private {
+/*.toggle-private {
   margin-left: 5px;
-}
+}*/
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   li {
     padding: 12px 15px;
   }
@@ -92,16 +131,14 @@ li.private {
   .new-task input {
     padding-bottom: 5px;
   }
-}
+}*/
 
 /* daljeet's inline css */
-@font-face {
+/*@font-face {
   font-family: 'Cabin Sketch', cursive;
-}
+}*/
 
-h1 {
-  font-family: "Cabin Sketch";
-  color: white;
+/*h1 {
   font-size: 3.5em;
   margin: 0;
   margin-bottom: 10px;
@@ -110,11 +147,9 @@ h1 {
 }
 
 h2 {
-  font-family: "Cabin Sketch";
-  color: white;
   font-size: 3.5em;
   margin: 0;
   margin-bottom: 10px;
   display: inline-block;
   margin-right: 10em;
-}
+}*/

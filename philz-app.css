@@ -9,6 +9,25 @@ body {
   color: white;
 }
 
+input[type="text"]
+{
+    margin: 0;
+    background: 0;
+    border: 0;
+    border-bottom: 3px solid #333;
+    outline: 0;
+    font-size: 100%;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: white;
+    outline: 0;
+    font-family: "Cabin Sketch";
+    min-width: 150px;
+    border-bottom: 4px solid white;
+    display: inline-block;
+    margin: -4px 5px;
+}
+
 .logo {
   width: 20%;
   margin-left: 25px;
@@ -57,12 +76,12 @@ body {
   margin: 0px 7px;
 }
 
-.underlined-question-space {
+/*.underlined-question-space {
   width: 150px;
   border-bottom: 4px solid white;
   display: inline-block;
   margin: -4px 5px;
-}
+}*/
 
 /*form {
   margin-top: 10px;

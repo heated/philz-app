@@ -80,10 +80,10 @@ if (Meteor.isServer) {
 
 
 Router.route('/', function () {
-  this.render('Home', {
-    data: function () { return Items.findOne({_id: this.params._id}); }
-  });
+  // this.render('Home');
 });
 
 Router.route('/one');
+
+
 

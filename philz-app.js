@@ -5,7 +5,7 @@ if (Meteor.isClient) {
   // This code only runs on the client
   Template.body.helpers({
     answers: function () {
-      return Answers.find({});
+      return Answers.find({}, {sort: {createdAt: -1}});
     }
   });
 

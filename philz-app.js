@@ -28,10 +28,11 @@ if (Meteor.isClient) {
       return false;
     }
   });
+
   var dt = new Date();
   var time = dt.toTimeString();
+  // PLEASE ADD TIME!!!!! BITCHASS!!!
 
-  //PLEASE ADD TIME!!!!! BITCHASS!!!
 }
 
 if (Meteor.isServer) {

@@ -94,3 +94,27 @@ li.private {
   }
 }
 
+/* daljeet's inline css */
+@font-face {
+  font-family: 'Cabin Sketch', cursive;
+}
+
+h1 {
+  font-family: "Cabin Sketch";
+  color: white;
+  font-size: 3.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 10em;
+}
+
+h2 {
+  font-family: "Cabin Sketch";
+  color: white;
+  font-size: 3.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 10em;
+}

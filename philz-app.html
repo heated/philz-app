@@ -1,0 +1,29 @@
+<!-- simple-todos.html -->
+<head>
+  <title>Philz Coffee</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Philz Coffee</h1>
+
+      <h4>Has anyone ever really been far even as decided to do even go want to do look more like?</h4>
+
+	  <!-- add a form below the h1 -->
+	  <form class="new-answer">
+	    <input type="text" name="text" placeholder="Type an answer" />
+	  </form>
+    </header>
+
+    <ul>
+      {{#each answers}}
+        {{> answer}}
+      {{/each}}
+    </ul>
+  </div>
+</body>
+
+<template name="answer">
+  <li>{{text}}</li>
+</template>

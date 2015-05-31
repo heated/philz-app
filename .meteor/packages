@@ -7,3 +7,5 @@
 meteor-platform
 autopublish
 insecure
+backbone
+iron:router

@@ -50,3 +50,12 @@ if (Meteor.isClient) {
 if (Meteor.isServer) {
   Meteor.startup(function () {});
 }
+
+Router.route('/', function () {
+  this.render('Home', {
+    data: function () { return Items.findOne({_id: this.params._id}); }
+  });
+});
+
+Router.route('/one');
+
